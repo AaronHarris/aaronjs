@@ -1,0 +1,30 @@
+{
+  "name": "aaron",
+  "version": "0.0.1",
+  "description": "A module that allows one to interact with the aaron project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronHarris/aaronjs.git"
+  },
+  "keywords": [
+    "aaron",
+    "amazon",
+    "usc",
+    "london",
+    "biking",
+    "harry",
+    "potter",
+    "travel",
+    "nature"
+  ],
+  "author": "Aaron Harris <contactaaronh@gmail.com> (http://github.com/AaronHarris)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AaronHarris/aaronjs/issues"
+  },
+  "homepage": "https://github.com/AaronHarris/aaronjs#readme"
+}
