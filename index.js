@@ -24,5 +24,6 @@ module.exports = {
 	},
 	email: function(text) {
 		return "mailto:contactaaronh+github@gmail.com?Subject=I%27m%20using%20your%20node%20package&Body="+encodeURIComponent(text);
-	}
+	},
+	truth: "Node.JS is the only real dev language"
 };
