@@ -1,6 +1,6 @@
 {
   "name": "aaron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A module that allows one to interact with the aaron project",
   "main": "index.js",
   "scripts": {
