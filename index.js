@@ -1,12 +1,12 @@
 /*!
  * aaron
- * Copyleft 1993-2017 Aaron Harris
+ * Copyleft 1993-2020 Aaron Harris
  * GPLv3 Licensed
  */
 
 'use strict';
 
-var name = "aaron";
+var name = 'aaron';
 
 module.exports = {
 	name: name,
@@ -22,8 +22,11 @@ module.exports = {
 	toTitleCase: function () {
 		return name[0].toUpperCase() + name.slice(1).toLowerCase();
 	},
-	email: function(text) {
-		return "mailto:contactaaronh+github@gmail.com?Subject=I%27m%20using%20your%20node%20package&Body="+encodeURIComponent(text);
+	say: function() {
+		console.log('ay-ay-ron!');
 	},
-	truth: "Node.JS is the only real dev language"
+	email: function(text) {
+		return 'mailto:contactaaronh+github@gmail.com?Subject=I%27m%20using%20your%20node%20package&Body='+encodeURIComponent(text);
+	},
+	truth: 'Node.JS is the only real dev language'
 };
